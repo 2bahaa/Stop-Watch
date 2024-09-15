@@ -1,1 +1,2 @@
 # Stop-Watch
+This project is a digital stopwatch with both increment (timer) and countdown (timer) modes, designed using an AVR microcontroller. The time is displayed on six 7-segment displays, showing hours, minutes, and seconds. It allows users to adjust the time using buttons and switch between counting up or down. The project also features a buzzer to signal when the countdown reaches zero and LEDs to indicate the active mode. External interrupts are used to reset, pause, and resume the timer, while a timer interrupt handles the second-by-second time updates.
